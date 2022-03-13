@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/listazam"
+        android:title="@string/lista_zam_wie"
+        />
+    <item android:id="@+id/zapamietaj"
+        android:title="@string/zapami_taj_dane_do_logowania"
+        android:checkable="true"
+        />
+    <item android:id="@+id/autor"
+        android:title="@string/o_programie"
+        />
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" My Application"</string>
+    <string name="numer_telefonu">Phone Number</string>
+    <string name="adres_email">E-mail Address</string>
+    <string name="imi_i_nazwisko">First name and last name</string>
+    <string name="dodatki">Addons</string>
+    <string name="zakup">Purchase</string>
+    <string name="aplikacje_wykona_damian_kuberski">The applications was made by Damian Kuberski</string>
+    <string name="wr">Back</string>
+    <string name="o_programie">About App</string>
+    <string name="zapami_taj_dane_do_logowania">"Remember your login "</string>
+    <string name="lista_zam_wie">Order History</string>
+    <string name="price">, price:</string>
+</resources>

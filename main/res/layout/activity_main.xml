@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height='wrap_content'
+            android:id="@+id/listview">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:hint="@string/imi_i_nazwisko"
+            />
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:hint="@string/adres_email"
+            />
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:hint="@string/numer_telefonu"
+            />
+        <TextView
+            android:id="@+id/cena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext2"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/dodatki"
+            android:id="@+id/dod"
+            />
+        <Spinner
+            android:id="@+id/pies"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/dod"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/pies2"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/pies"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/pies3"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/pies2"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/zakup"
+            android:id="@+id/zaplac"/>
+    </RelativeLayout>
+</ScrollView>
